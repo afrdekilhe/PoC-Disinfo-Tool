@@ -22,7 +22,7 @@ if uploaded_file is not None:
     # Sauvegarder temporairement le fichier pour le lire
     with open("uploaded_dataset.json", "wb") as f:
         f.write(uploaded_file.getbuffer())
-    file_path = "uploaded_dataset.json"
+    file_path = "https://raw.githubusercontent.com/afrdekilhe/PoC-Disinfo-Tool/refs/heads/main/dataset_rafale.json"
 
     data = load_data(file_path)
 
