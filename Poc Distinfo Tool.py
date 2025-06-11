@@ -5,7 +5,7 @@ import os
 from IPython.display import display
 
 # Construct the full path to the JSON file
-file_path = os.path.join('/content/dataset_rafale.json')
+file_path = os.path.join('https://github.com/afrdekilhe/PoC-Disinfo-Tool/blob/main/dataset_rafale.json')
 
 # Load the JSON data
 with open(file_path, 'r') as f:
